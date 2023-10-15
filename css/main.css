@@ -1,4 +1,3 @@
-/* ESTILO 1 */
 * {
     margin: 0;
     padding: 0;
@@ -18,11 +17,25 @@ body, input, textarea {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* ESTILO 2 */
 header {
     padding: 16px 0;
     background-color: #bd60a8;
     color: #ecf0f1;
+}
+
+header .container .logo {
+    display: flex;
+    justify-content: center;
+}
+
+header .container .logo img {
+    height: 180px;
+}
+
+header .container nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
 }
 
 header nav li {
@@ -36,29 +49,18 @@ header nav li a {
     text-decoration: none;
 }
 
-/* ESTILO 3 */
 .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
 
-/* ESTILO 4 */
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* ESTILO 5 */
-header .container,
 section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* ESTILO 6 */
 .brand-list img {
     height: 24px;
 }
@@ -68,7 +70,6 @@ section .container {
     margin-right: 8px;
 }
 
-/* ESTILO 7 */
 section .container {
     align-items: flex-start;
 }
